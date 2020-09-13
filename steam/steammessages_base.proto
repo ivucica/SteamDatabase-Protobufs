@@ -1,5 +1,6 @@
 import "google/protobuf/descriptor.proto";
 
+option go_package = "github.com/Philipp15b/go-steam/protocol/protobuf";
 option optimize_for = SPEED;
 option cc_generic_services = true;
 option (force_php_generation) = true;

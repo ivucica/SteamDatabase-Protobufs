@@ -1,5 +1,6 @@
 import "steammessages_base.proto";
 
+option go_package = "github.com/Philipp15b/go-steam/protocol/protobuf";
 option optimize_for = SPEED;
 option cc_generic_services = false;
 

@@ -1,5 +1,6 @@
 import "google/protobuf/descriptor.proto";
 
+option go_package = "github.com/Philipp15b/go-steam/protocol/protobuf/unified;unified";
 option optimize_for = SPEED;
 option cc_generic_services = false;
 
